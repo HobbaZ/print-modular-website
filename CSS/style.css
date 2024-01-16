@@ -1,0 +1,80 @@
+:root {
+  --dark: black;
+  --light: white;
+  --transparent: rgba(255, 255, 255, 0);
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+  overflow-x: hidden;
+  color: var(--dark);
+}
+
+body {
+  padding-bottom: 85px;
+}
+
+.icon {
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.navbar {
+  font-size: large;
+  color: var(--dark);
+  font-weight: 500;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-link active {
+  text-decoration: underline;
+  color: yellow;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+}
+
+.btn-dark {
+  border: 2px solid var(--light);
+  background-color: var(--transparent);
+}
+
+.btn-dark:hover {
+  background-color: rgba(255, 255, 255, 0.171);
+  border: 2px solid var(--transparent);
+}
+
+#hamburgerIcon {
+  font-size: 30px;
+  color: var(--light);
+}
+
+.fa {
+  font-size: 40px;
+  padding: 5px;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: rgb(0, 0, 0);
+  border-top: 2px var(--light) solid;
+  align-items: center;
+  width: 100vw;
+  padding-top: 10px;
+}
+
+.icon {
+  font-size: 30px;
+  color: var(--light);
+}
+
+footer a :hover {
+  color: yellow;
+}
