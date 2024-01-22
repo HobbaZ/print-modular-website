@@ -56,11 +56,6 @@ body {
   color: var(--light);
 }
 
-.fa {
-  font-size: 40px;
-  padding: 5px;
-}
-
 footer {
   margin-top: 20px;
   background-color: rgb(0, 0, 0);

@@ -5,6 +5,7 @@ function getCurrentYear() {
 
 const footer = (document.querySelector("#footer").innerHTML = `
     <div class="container-fluid">
+    <hr />
     <div class="row">
     <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
         <h5 class="text-uppercase">Print Modular, ${getCurrentYear()}</h5>
@@ -20,19 +21,19 @@ const footer = (document.querySelector("#footer").innerHTML = `
 
         <ul class="list-unstyled mb-0">
           <li>
-            <a href="#!" class="text-dark">Home</a>
+            <a href="#!" class="text-dark"><i class="fa-solid fa-house"></i> Home</a>
           </li>
           <li>
-            <a href="#!" class="text-dark">About</a>
+            <a href="#!" class="text-dark"><i class="fa-solid fa-address-card"></i> About</a>
           </li>
           <li>
-            <a href="#!" class="text-dark">Projects</a>
+            <a href="#!" class="text-dark"><i class="fa-solid fa-screwdriver-wrench"></i> Projects</a>
           </li>
           <li>
-            <a href="#!" class="text-dark">Products</a>
+            <a href="#!" class="text-dark"><i class="fa-solid fa-boxes-stacked"></i> Products</a>
           </li>
           <li>
-            <a href="#!" class="text-dark">Contact Us</a>
+            <a href="#!" class="text-dark"><i class="fa-solid fa-message"></i> Contact Us</a>
           </li>
         </ul>
       </div>
@@ -42,13 +43,16 @@ const footer = (document.querySelector("#footer").innerHTML = `
 
         <ul class="list-unstyled mb-0">
           <li>
-            <a href="#!" class="text-dark">Etsy</a>
+            <a href="#!" class="text-dark"><i class="fa-brands fa-etsy"></i> Etsy</a>
           </li>
           <li>
-            <a href="#!" class="text-dark">Youtube</a>
+            <a href="https://www.youtube.com/channel/UCBeAOp5JIZNvlWO-_92DXBA" class="text-dark"><i class="fa-brands fa-youtube"></i> Youtube</a>
           </li>
           <li>
-            <a href="#!" class="text-dark">Tik Tok</a>
+            <a href="https://www.tiktok.com/@printmodular" class="text-dark"><i class="fa-brands fa-tiktok"></i> Tiktok</a>
+          </li>
+          <li>
+            <a href="https://www.tiktok.com/@printmodular" class="text-dark"><i class="fa-brands fa-instagram"></i> Instagram</a>
           </li>
         </ul>
       </div>
