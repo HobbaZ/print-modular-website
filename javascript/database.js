@@ -29,6 +29,16 @@ const database = {
       altText: [],
       video: "",
     },
+
+    {
+      name: "3D Printed Pet Tags",
+      description: "Created customisable 3D printed pet tags in Blender",
+      printTime: "Around 30 mins",
+      printSpeed: "200mm/s",
+      images: [],
+      altText: [],
+      video: "",
+    },
   ],
 
   products: [{}],

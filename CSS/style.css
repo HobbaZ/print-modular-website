@@ -30,9 +30,13 @@ body {
 
 .nav-link {
   text-decoration: none;
+  border: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: transparent;
 }
 
-.nav-link active {
+.active {
   text-decoration: underline;
   color: yellow;
 }
